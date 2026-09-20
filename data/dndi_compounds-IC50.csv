@@ -1,0 +1,191 @@
+chembl_id	pref_name	smiles	molecular_weight	logp	hba	hbd	psa	rtb	ro5_violations	aromatic_rings	heavy_atoms	pf_ec50_uM	tb_ic50_uM	tc_ic50_uM	tbrucei_ic50_uM	ld_ic50_uM	cp_ec50_uM	tg_ec50_uM	hepg2_cc50_uM	si_pf	si_tb	si_tc	si_tbrucei	si_ld	si_cp	si_tg
+CHEMBL516073		O=[N+]([O-])c1cc2n(n1)CC(OCc1ccc(OC(F)(F)F)cc1)CO2	359.26	2.67	7.0	0.0	88.65	5.0	0.0	2.0	25.0			8.2												
+CHEMBL3104530		O=C(c1ccccc1)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	425.45	5.54	3.0	0.0	36.44	4.0	1.0	3.0	31.0			0.0077												
+CHEMBL4084773		O=[N+]([O-])c1cn2c(n1)OCC(OCc1ccc(OC(F)(F)F)cc1)CC2	373.29	3.06	7.0	0.0	88.65	5.0	0.0	2.0	26.0			4.2		0.63										
+CHEMBL3104477		CS(=O)(=O)c1ccc(N2CCC(N(c3ccc(Cl)cc3)c3cccnc3)CC2)cc1	441.98	4.95	5.0	0.0	53.51	5.0	0.0	3.0	30.0			0.0021												
+CHEMBL3104536		FC(F)(F)c1ccc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)cc1	465.44	6.93	3.0	0.0	19.37	4.0	1.0	3.0	33.0			0.0179												
+CHEMBL3137483		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(C(c3ccccc3)C(F)(F)F)CC2)cc1	479.47	7.01	3.0	0.0	19.37	5.0	1.0	3.0	34.0			5.1305												
+CHEMBL4864912		Cc1c(-c2ccccn2)coc1C(=O)Nc1ccc2c(c1)B(O)OC2	334.14													0.4										
+CHEMBL3137392		O=C(C(c1ccc(Cl)cc1)c1cncnc1)N1CCN(c2ccc(C(F)(F)F)cc2)CC1	460.89	4.63	4.0	0.0	49.33	4.0	0.0	3.0	32.0			0.118												
+CHEMBL4103100		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(C(F)(F)F)cc3)nc1)C2	420.35	3.85	7.0	0.0	92.31	5.0	0.0	3.0	30.0			0.64												
+CHEMBL4080211		O=C(N[C@H]1COc2nc([N+](=O)[O-])cn2C1)c1ccccc1OC(F)(F)F	372.26	1.88	7.0	1.0	108.52	4.0	0.0	2.0	26.0			0.96												
+CHEMBL4087650		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3)nn1)C2	437.33	3.12	9.0	0.0	114.43	6.0	0.0	3.0	31.0			0.55												
+CHEMBL3137461		CN(C)S(=O)(=O)c1ccccc1N1CCC(N(c2ccc(C#N)cc2)c2cccnc2)CC1	461.59	4.01	6.0	0.0	80.54	6.0	0.0	3.0	33.0			0.01												
+CHEMBL4098109		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1cc(C(F)(F)F)ccn1)C2	330.22	2.05	7.0	0.0	92.31	3.0	0.0	2.0	23.0			2.4	23.0											
+CHEMBL3608850		O=[N+]([O-])c1cn2c(n1)OCC(COCc1ccc(OCc3ccccc3)cc1)C2	395.42	3.6	7.0	0.0	88.65	8.0	0.0	3.0	29.0					1.6										
+CHEMBL3137387		O=S(=O)(Cc1ccccc1)Nc1cnccc1N1CCN(c2ccc(C(F)(F)F)cc2)CC1	476.52	4.37	5.0	1.0	65.54	6.0	0.0	3.0	33.0			0.018												
+CHEMBL4097615		O=[N+]([O-])c1cn2c(n1)OC[C@@H](Oc1ccc(OC(F)(F)F)cc1)C2	345.23	2.53	7.0	0.0	88.65	4.0	0.0	2.0	24.0			7.3												
+CHEMBL3137442		Cc1ncsc1C(=O)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	446.5	5.31	5.0	0.0	49.33	4.0	1.0	3.0	31.0			0.0069												
+CHEMBL3104527		CC(C)(C)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	377.45	5.5	3.0	0.0	19.37	3.0	1.0	2.0	27.0			0.603												
+CHEMBL3137454		Cl.FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccc(C(F)(F)F)cn3)CC2)cc1	502.89	6.32	4.0	0.0	32.26	4.0	1.0	3.0	33.0			0.0197												
+CHEMBL3104535		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccccc3C(F)(F)F)CC2)cc1	465.44	6.93	3.0	0.0	19.37	4.0	1.0	3.0	33.0			0.015												
+CHEMBL3104529		CC(C)(C)C(=O)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	405.46	5.28	3.0	0.0	36.44	3.0	1.0	2.0	29.0			0.0028												
+CHEMBL4064066		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(F)cc3)cn1)C2	370.34	2.97	7.0	0.0	92.31	5.0	0.0	3.0	27.0			0.16		0.18										
+CHEMBL3137480		FC(F)(F)c1ccc(N(c2cncnc2)C2CCN(c3ccc(C(F)(F)F)nc3)CC2)cc1	467.42	5.72	5.0	0.0	45.15	4.0	1.0	3.0	33.0			0.013												
+CHEMBL4848737		O=C(Nc1ccc2c(c1)B(O)OC2)c1nnc(-c2ccccn2)o1	322.09													9.4										
+CHEMBL3104478		CS(=O)(=O)c1ccc(N2CCC(N(c3ccc(C#N)cc3)c3cccnc3)CC2)cc1	432.55	4.16	6.0	0.0	77.3	5.0	0.0	3.0	31.0			0.0022												
+CHEMBL3137466		CS(=O)(=O)N1CCC(N(c2ccc(Cl)cc2)c2cccnc2)CC1	365.89	3.3	4.0	0.0	53.51	4.0	0.0	2.0	24.0			0.094												
+CHEMBL3137481		CC(C)C(O)CN1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	407.48	4.72	4.0	1.0	39.6	6.0	0.0	2.0	29.0			0.036												
+CHEMBL3104475		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccc(Cl)cn3)CC2)cc1	432.88	5.96	4.0	0.0	32.26	4.0	1.0	3.0	30.0			0.039												
+CHEMBL3137469		CC(C)(C)OC(=O)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	421.46	5.64	4.0	0.0	45.67	3.0	1.0	2.0	30.0			0.0051												
+CHEMBL3137443		O=C(c1ccc(F)cc1)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	443.44	5.68	3.0	0.0	36.44	4.0	1.0	3.0	32.0			0.0114												
+CHEMBL3104482		CC(C)CN1CCN(C(=O)C(c2ccc(Cl)cc2)c2cccnc2)CC1	371.91	3.67	3.0	0.0	36.44	5.0	0.0	2.0	26.0			0.065												
+CHEMBL4091750		CC1(C)Oc2nc([N+](=O)[O-])cn2CC1OCc1ccc(OC(F)(F)F)cc1	387.31	3.45	7.0	0.0	88.65	5.0	0.0	2.0	27.0			0.53	34.0	5.5										
+CHEMBL4085479		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ccc(-c3ccc(OC(F)(F)F)cc3)nc1)C2	422.32	3.59	8.0	0.0	101.54	5.0	0.0	3.0	30.0			0.15												
+CHEMBL4078293		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ccc(OC(F)(F)F)cc1)C2	345.23	2.53	7.0	0.0	88.65	4.0	0.0	2.0	24.0			0.5833		0.7143										
+CHEMBL3137388		CC(C)(C)OC(=O)N1CCN(C(=O)C(c2ccc(C#N)cc2)c2cccnc2)CC1	406.49	3.16	5.0	0.0	86.53	3.0	0.0	2.0	30.0			0.066												
+CHEMBL3608849		O=[N+]([O-])c1cn2c(n1)OCC(COCc1ccc(OC(F)(F)F)cc1)C2	373.29	2.92	7.0	0.0	88.65	6.0	0.0	2.0	26.0					1.9										
+CHEMBL3137449		COc1cccc(CN2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)c1	441.5	5.91	4.0	0.0	28.6	6.0	1.0	3.0	32.0			0.056												
+CHEMBL4100270		O=[N+]([O-])c1nc2n(n1)CC(OCc1ccc(OCc3ccccc3)cc1)CO2	382.38	2.74	8.0	0.0	101.54	7.0	0.0	3.0	28.0			0.084												
+CHEMBL4105398		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ncccc1-c1ccc(OC(F)(F)F)cc1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			6.3		4.8										
+CHEMBL125	MILTEFOSINE	CCCCCCCCCCCCCCCCOP(=O)([O-])OCC[N+](C)(C)C	407.58	5.68	4.0	0.0	58.59	20.0	1.0	0.0	27.0		4.3629	26.0892	34.0	4.9747			61.1547		14.02	2.34	1.8	12.29		
+CHEMBL4092525		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccccc1-c1ccc(OC(F)(F)F)cc1)C2	435.36	4.33	7.0	0.0	88.65	6.0	0.0	3.0	31.0			0.64		0.17										
+CHEMBL4067141		O=[N+]([O-])c1cn2c(n1)OCCC(OCc1ccc(OC(F)(F)F)cc1)C2	373.29	3.06	7.0	0.0	88.65	5.0	0.0	2.0	26.0			51.0												
+CHEMBL3137390		O=C(C(c1ccc(Cl)cc1)c1cncnc1)N1CCN(c2ccc(C(F)(F)F)nc2)CC1	461.88	4.02	5.0	0.0	62.22	4.0	0.0	3.0	32.0			0.2525												
+CHEMBL4103409		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ccc(-c3ccc(F)cc3)nc1)C2	356.31	2.83	7.0	0.0	92.31	4.0	0.0	3.0	26.0			0.4												
+CHEMBL4089478		O=[N+]([O-])c1cn2c(n1)OC[C@H](NCc1ccc(OC(F)(F)F)cc1)C2	358.28	2.24	7.0	1.0	91.45	5.0	0.0	2.0	25.0			1.8	3.3											
+CHEMBL3137467		O=C(C1CC1)N1CCC(N(c2ccc(Cl)cc2)c2cccnc2)CC1	355.87	4.27	3.0	0.0	36.44	4.0	0.0	2.0	25.0			0.0058												
+CHEMBL1836005		O=[N+]([O-])c1cn2c(n1)OCC(Oc1ccc(OC(F)(F)F)cc1)C2	345.23	2.53	7.0	0.0	88.65	4.0	0.0	2.0	24.0			0.39		0.39										
+CHEMBL3137464		CCC(C(C)=O)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	405.46	5.07	4.0	0.0	36.44	6.0	1.0	2.0	29.0			0.008												
+CHEMBL3104473		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccc(C(F)(F)F)nc3)CC2)cc1	466.43	6.32	4.0	0.0	32.26	4.0	1.0	3.0	33.0			0.015												
+CHEMBL4065586		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ccc(-c3ccc(F)cc3)cn1)C2	356.31	2.83	7.0	0.0	92.31	4.0	0.0	3.0	26.0				10.0											
+CHEMBL4857278		O=C(Nc1ccc2c(c1)B(O)OC2)c1cn(CC(F)(F)F)nc1C(F)(F)F	393.05													1.0										
+CHEMBL3137474		N#Cc1cc(C(F)(F)F)ccc1N1CCC(N(c2ccc(Cl)cc2)c2cccnc2)CC1	456.9	6.43	4.0	0.0	43.16	4.0	1.0	3.0	32.0			0.005												
+CHEMBL4076665		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ccc(-c3ccc(OC(F)(F)F)cc3)cn1)C2	422.32	3.59	8.0	0.0	101.54	5.0	0.0	3.0	30.0			0.11	9.3											
+CHEMBL3137463		CN(C)S(=O)(=O)c1cccc(N2CCC(N(c3ccc(C#N)cc3)c3cccnc3)CC2)c1	461.59	4.01	6.0	0.0	80.54	6.0	0.0	3.0	33.0			0.006												
+CHEMBL4088088		O=C(Nc1ccc(OC(F)(F)F)cc1)N[C@H]1COc2nc([N+](=O)[O-])cn2C1	387.27	2.27	7.0	2.0	120.55	4.0	0.0	2.0	27.0			2.3	19.0											
+CHEMBL512244		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(OC(F)(F)F)cc1)C2	359.26	2.67	7.0	0.0	88.65	5.0	0.0	2.0	25.0		0.16	0.4		0.5433										
+CHEMBL3104476		N#Cc1ccc(N(c2cccnc2)C2CCN(c3ccc(C(F)(F)F)cc3)CC2)cc1	422.45	5.78	4.0	0.0	43.16	4.0	1.0	3.0	31.0			0.003												
+CHEMBL4084507		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1cc(-c3ccc(F)cc3)ncn1)C2	357.3	2.23	8.0	0.0	105.2	4.0	0.0	3.0	26.0			0.68												
+CHEMBL4085508		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCC#Cc1ccc(C(F)(F)F)cn1)C2	368.27	2.03	7.0	0.0	92.31	3.0	0.0	2.0	26.0			1.4	21.0											
+CHEMBL3137457		Cc1ccc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)cn1	412.46	5.61	4.0	0.0	32.26	4.0	1.0	3.0	30.0			0.151												
+CHEMBL4087531		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cccnc1-c1ccc(OC(F)(F)F)cc1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			1.9		0.78										
+CHEMBL1836062		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(OCc3ccccc3)cc1)C2	381.39	3.35	7.0	0.0	88.65	7.0	0.0	3.0	28.0			51.0		1.7										
+CHEMBL3104533		Fc1ccccc1CN1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	429.46	6.04	3.0	0.0	19.37	5.0	1.0	3.0	31.0			0.021												
+CHEMBL1944704		O=C(N[C@@H]1COc2nc([N+](=O)[O-])cn2C1)c1ccc(OC(F)(F)F)cc1	372.26	1.88	7.0	1.0	108.52	4.0	0.0	2.0	26.0			19.0												
+CHEMBL4102045		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)F)cc3)cn1)C2	418.36	3.43	8.0	0.0	101.54	7.0	0.0	3.0	30.0			0.078		0.86										
+CHEMBL3137453		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3cccc(C(F)(F)F)c3)CC2)cc1	465.44	6.93	3.0	0.0	19.37	4.0	1.0	3.0	33.0			0.21												
+CHEMBL3104485		N#Cc1ccc(C(C(=O)N2CCN(c3ccc(C(F)(F)F)cc3)CC2)c2cccnc2)cc1	450.46	4.45	4.0	0.0	60.23	4.0	0.0	3.0	33.0			0.0254												
+CHEMBL4100987		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccccc1OC(F)(F)F)C2	359.26	2.67	7.0	0.0	88.65	5.0	0.0	2.0	25.0			0.2												
+CHEMBL3137458		Cc1cncc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)c1	412.46	5.61	4.0	0.0	32.26	4.0	1.0	3.0	30.0			0.009												
+CHEMBL4101223		O=[N+]([O-])c1nc2n(n1)CC(OCc1ccc(OC(F)(F)F)cc1)CO2	360.25	2.06	8.0	0.0	101.54	5.0	0.0	2.0	25.0			0.73												
+CHEMBL267345	AMPHOTERICIN B	C[C@@H]1[C@H](O)[C@@H](C)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@H](O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)C[C@@H]2O[C@](O)(C[C@@H](O)C[C@@H](O)[C@H](O)CC[C@@H](O)C[C@@H](O)CC(=O)O[C@H]1C)C[C@H](O)[C@H]2C(=O)O	924.09	0.71	17.0	12.0	319.61	3.0	3.0	0.0	65.0		0.11	1.7577	2.8	0.6968			12.7144		115.59	7.23	4.54	18.25		
+CHEMBL3137451		Cc1cccc(CN2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)c1	425.5	6.21	3.0	0.0	19.37	5.0	1.0	3.0	31.0			0.044												
+CHEMBL4065592		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3F)cn1)C2	454.34	3.87	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.078		0.27										
+CHEMBL3104490		CS(=O)(=O)c1ccc(N2CCN(C(=O)C(c3ccc(Cl)cc3)c3cccnc3)CC2)cc1	469.99	3.62	5.0	0.0	70.58	5.0	0.0	3.0	32.0			0.0255												
+CHEMBL4083135		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)c(F)c3)cn1)C2	454.34	3.87	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.025												
+CHEMBL3137391		O=C(C(c1ccc(Cl)cc1)c1cncnc1)N1CCN(c2ccc(C(F)(F)F)cn2)CC1	461.88	4.02	5.0	0.0	62.22	4.0	0.0	3.0	32.0			0.161												
+CHEMBL4068863		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1cccc(-c3ccc(OC(F)(F)F)cc3F)n1)C2	454.34	3.87	8.0	0.0	101.54	6.0	0.0	3.0	32.0			3.8												
+CHEMBL4095902		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3)cc1)C2	435.36	4.33	7.0	0.0	88.65	6.0	0.0	3.0	31.0			0.12		1.2										
+CHEMBL4065451		O=C(O[C@H]1COc2nc([N+](=O)[O-])cn2C1)N1CCN(c2ccc(OC(F)(F)F)cc2)CC1	457.37	2.41	9.0	0.0	112.2	4.0	0.0	2.0	32.0			0.27												
+CHEMBL4105533		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cnc(-c3ccc(OC(F)(F)F)cc3)cn1)C2	437.33	3.12	9.0	0.0	114.43	6.0	0.0	3.0	31.0			0.27												
+CHEMBL4078826		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(F)cc3)nc1)C2	370.34	2.97	7.0	0.0	92.31	5.0	0.0	3.0	27.0			1.7												
+CHEMBL4062862		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ncc(-c3ccc(OC(F)(F)F)cc3)cn1)C2	437.33	3.12	9.0	0.0	114.43	6.0	0.0	3.0	31.0			0.28												
+CHEMBL4067944		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(F)cc3F)nc1)C2	388.33	3.11	7.0	0.0	92.31	5.0	0.0	3.0	28.0			1.3		0.64										
+CHEMBL450548		O=[N+]([O-])c1cn2c(n1)OCC(OCc1ccc(OC(F)(F)F)cc1)C2	359.26	2.67	7.0	0.0	88.65	5.0	0.0	2.0	25.0			1.2		0.39										
+CHEMBL3137475		Cn1nc(C2CC2)cc1N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	441.5	5.52	5.0	0.0	37.19	5.0	1.0	3.0	32.0			0.007												
+CHEMBL4061272		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3Cl)cn1)C2	470.79	4.38	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.12	35.0	0.31										
+CHEMBL4095813		O=C(Nc1ccccc1OC(F)(F)F)N[C@H]1COc2nc([N+](=O)[O-])cn2C1	387.27	2.27	7.0	2.0	120.55	4.0	0.0	2.0	27.0			1.3												
+CHEMBL3104489		N#Cc1ccc(C(C(=O)N2CCN(c3ccc(C(F)(F)F)cn3)CC2)c2cccnc2)cc1	451.45	3.85	5.0	0.0	73.12	4.0	0.0	3.0	33.0			0.0147												
+CHEMBL4100963		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ncc(-c3ccc(OC(F)(F)F)cc3)cn1)C2	423.31	2.99	9.0	0.0	114.43	5.0	0.0	3.0	30.0			0.48												
+CHEMBL3137446		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(Cc3cccc(C(F)(F)F)c3)CC2)cc1	479.47	6.92	3.0	0.0	19.37	5.0	1.0	3.0	34.0			0.038												
+CHEMBL1946794		O=C(Nc1ccc(OC(F)(F)F)cc1)O[C@@H]1COc2nc([N+](=O)[O-])cn2C1	388.26	2.7	8.0	1.0	117.75	4.0	0.0	2.0	27.0			6.8		3.3										
+CHEMBL3104487		N#Cc1ccc(C(C(=O)N2CCN(c3ccc(C(F)(F)F)nc3)CC2)c2cccnc2)cc1	451.45	3.85	5.0	0.0	73.12	4.0	0.0	3.0	33.0			0.0322												
+CHEMBL1944881		O=C(Nc1ccc(OC(F)(F)F)cc1)N[C@@H]1COc2nc([N+](=O)[O-])cn2C1	387.27	2.27	7.0	2.0	120.55	4.0	0.0	2.0	27.0			7.5	22.0											
+CHEMBL3104375		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccc(C(F)(F)F)cn3)CC2)cc1	466.43	6.32	4.0	0.0	32.26	4.0	1.0	3.0	33.0			0.015												
+CHEMBL4061728		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ncc(C(F)(F)F)cc3Cl)cc1)C2	454.79	4.5	7.0	0.0	92.31	5.0	0.0	3.0	31.0			0.65	43.0	0.21										
+CHEMBL4089957		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cccc(-c3ccc(OC(F)(F)F)cc3F)n1)C2	454.34	3.87	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.56												
+CHEMBL3137465		CC(C)(C)OC(=O)N1CCC(N(c2ccc(Cl)cc2)c2cccnc2)CC1	387.91	5.27	4.0	0.0	45.67	3.0	1.0	2.0	27.0			0.001												
+CHEMBL3104486		O=C(C(c1ccc(Cl)cc1)c1cccnc1)N1CCN(c2ccc(C(F)(F)F)nc2)CC1	460.89	4.63	4.0	0.0	49.33	4.0	0.0	3.0	32.0			0.0094												
+CHEMBL3137471		CC(=O)C(C)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	391.44	4.68	4.0	0.0	36.44	5.0	0.0	2.0	28.0			0.015												
+CHEMBL3137459		N#Cc1ccc(N(c2cccnc2)C2CCN(c3ccc(F)c(F)c3)CC2)cc1	390.44	5.04	4.0	0.0	43.16	4.0	1.0	3.0	29.0			0.0018												
+CHEMBL4094416		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)c(F)c3)nc1)C2	454.34	3.87	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.24												
+CHEMBL2441392		O=C(Nc1ccc2c(c1)B(O)OC2)c1ccc(F)cc1C(F)(F)F	339.05												0.18	1.2										
+CHEMBL3104531		O=C(c1ccccc1C(F)(F)F)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	493.45	6.56	3.0	0.0	36.44	4.0	1.0	3.0	35.0			0.0006												
+CHEMBL3137445		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccccc3)CC2)cc1	397.44	5.91	3.0	0.0	19.37	4.0	1.0	3.0	29.0			0.014												
+CHEMBL3104528		CC(C)(C)CC(=O)N1CCC(N(c2ccc(Cl)cc2)c2cccnc2)CC1	385.94	5.3	3.0	0.0	36.44	4.0	1.0	2.0	27.0			0.0006												
+CHEMBL3137472		CC(O)C(C)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	393.45	4.47	4.0	1.0	39.6	5.0	0.0	2.0	28.0			0.2495												
+CHEMBL3104480		O=C(c1ccccc1)N1CCN(C(=O)C(c2ccc(Cl)cc2)c2cccnc2)CC1	419.91	3.85	3.0	0.0	53.51	4.0	0.0	3.0	30.0			0.0498												
+CHEMBL4074208		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ncc(-c3ccc(F)cc3)cn1)C2	357.3	2.23	8.0	0.0	105.2	4.0	0.0	3.0	26.0			0.64												
+CHEMBL3137456		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ncccn3)CC2)cc1	399.42	4.7	5.0	0.0	45.15	4.0	0.0	3.0	29.0			0.017												
+CHEMBL3137393		O=C(c1ccc(Cl)cc1)N1CCN(C(=O)C(c2ccc(Cl)cc2)c2cccnc2)CC1	454.36	4.5	3.0	0.0	53.51	4.0	0.0	3.0	31.0			0.022												
+CHEMBL4062393		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1cccc(C(F)(F)F)n1)C2	330.22	2.05	7.0	0.0	92.31	3.0	0.0	2.0	23.0			0.35												
+CHEMBL4067816		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cccc(-c3ccc(OC(F)(F)F)cc3)n1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			0.25	46.0	0.06										
+CHEMBL4086552		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(F)cc3F)cn1)C2	388.33	3.11	7.0	0.0	92.31	5.0	0.0	3.0	28.0			0.23	55.0	0.39										
+CHEMBL3137452		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3nccs3)CC2)cc1	404.46	5.36	5.0	0.0	32.26	4.0	1.0	3.0	28.0			0.017												
+CHEMBL3137389		CS(=O)(=O)c1ccc(N2CCN(C(=O)C(c3ccc(Cl)cc3)c3cncnc3)CC2)cc1	470.98	3.01	6.0	0.0	83.47	5.0	0.0	3.0	32.0			0.0709												
+CHEMBL4102643		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(Oc3ccc(OC(F)(F)F)cc3)cc1)C2	451.36	4.46	8.0	0.0	97.88	7.0	0.0	3.0	32.0					0.18										
+CHEMBL4079653		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cccc(-c3ccc(OC(F)F)cc3)n1)C2	418.36	3.43	8.0	0.0	101.54	7.0	0.0	3.0	30.0			0.26												
+CHEMBL4095345		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(-c3ccc(F)cc3F)nc1)C2	388.33	3.11	7.0	0.0	92.31	5.0	0.0	3.0	28.0			51.0												
+CHEMBL2347704	ACOZIBOROLE	CC1(C)OB(O)c2cc(NC(=O)c3ccc(F)cc3C(F)(F)F)ccc21	367.11												220.487	19.0										
+CHEMBL3137447		Cc1ccc(CN2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)cc1	425.5	6.21	3.0	0.0	19.37	5.0	1.0	3.0	31.0			0.067												
+CHEMBL4071564		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3)c[n+]1[O-])C2	452.35	2.97	8.0	0.0	115.59	6.0	0.0	3.0	32.0			3.3												
+CHEMBL4088403		O=[N+]([O-])c1cn2c(n1)OCCC(OCc1ccc(OCc3ccccc3)cc1)C2	395.42	3.74	7.0	0.0	88.65	7.0	0.0	3.0	29.0			2.3	23.0											
+CHEMBL4098235		O=C(N[C@H]1COc2nc([N+](=O)[O-])cn2C1)c1cccc(OC(F)(F)F)c1	372.26	1.88	7.0	1.0	108.52	4.0	0.0	2.0	26.0			0.87												
+CHEMBL3104488		O=C(C(c1ccc(Cl)cc1)c1cccnc1)N1CCN(c2ccc(C(F)(F)F)cn2)CC1	460.89	4.63	4.0	0.0	49.33	4.0	0.0	3.0	32.0			0.0107												
+CHEMBL4098597		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3)cn1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			0.1607		0.24										
+CHEMBL3137479		FC(F)(F)c1ccc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cncnc3)CC2)cc1	466.43	6.32	4.0	0.0	32.26	4.0	1.0	3.0	33.0			0.007												
+CHEMBL4101511		O=[N+]([O-])c1cn2c(n1)OC[C@H](NCc1cccc(OC(F)(F)F)c1)C2	358.28	2.24	7.0	1.0	91.45	5.0	0.0	2.0	25.0				2.0											
+CHEMBL3104537		N#Cc1ccccc1N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	422.45	5.78	4.0	0.0	43.16	4.0	1.0	3.0	31.0			0.003												
+CHEMBL4068473		O=C(Nc1ccccc1OC(F)(F)F)N[C@@H]1COc2nc([N+](=O)[O-])cn2C1	387.27	2.27	7.0	2.0	120.55	4.0	0.0	2.0	27.0			3.1	4.9	0.23										
+CHEMBL3137450		COc1ccc(CN2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)cc1	441.5	5.91	4.0	0.0	28.6	6.0	1.0	3.0	32.0			0.057												
+CHEMBL4090381		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1ccc(C(F)(F)F)cn1)C2	330.22	2.05	7.0	0.0	92.31	3.0	0.0	2.0	23.0			0.34	25.0	0.15										
+CHEMBL3137476		CC(C)(O)CN1CCC(N(c2ccc(C#N)cc2)c2cccnc2)CC1	350.47	3.33	5.0	1.0	63.39	5.0	0.0	2.0	26.0			0.027												
+CHEMBL4086678		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)F)cc3)nc1)C2	418.36	3.43	8.0	0.0	101.54	7.0	0.0	3.0	30.0			0.56												
+CHEMBL4091825		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(-c3ccc(F)cc3F)cn1)C2	388.33	3.11	7.0	0.0	92.31	5.0	0.0	3.0	28.0			7.8												
+CHEMBL3104376		O=C(C(c1ccc(Cl)cc1)c1cccnc1)N1CCN(c2ccc(C(F)(F)F)cc2)CC1	459.9	5.23	3.0	0.0	36.44	4.0	1.0	3.0	32.0			0.008												
+CHEMBL4072660		O=[N+]([O-])c1nc2n(n1)CC(OCc1ccc(-c3ccc(OC(F)(F)F)cc3)cn1)CO2	437.33	3.12	9.0	0.0	114.43	6.0	0.0	3.0	31.0			0.52	3.5											
+CHEMBL3608844		COc1cc(-c2ccc(OC(F)(F)F)cc2)ccc1CO[C@@H]1COc2nc([N+](=O)[O-])cn2C1	465.38	4.34	8.0	0.0	97.88	7.0	0.0	3.0	33.0					0.23										
+CHEMBL3137470		CN(C)S(=O)(=O)c1cc(C(F)(F)F)ccc1N1CCC(N(c2ccc(C#N)cc2)c2cccnc2)CC1	529.59	5.03	6.0	0.0	80.54	6.0	2.0	3.0	37.0			0.006												
+CHEMBL4101663		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1cccc(-c3ccc(OC(F)(F)F)cc3)n1)C2	422.32	3.59	8.0	0.0	101.54	5.0	0.0	3.0	30.0				7.5											
+CHEMBL3104474		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccccn3)CC2)cc1	398.43	5.3	4.0	0.0	32.26	4.0	1.0	3.0	29.0			0.024												
+CHEMBL3104481		O=C(C(c1ccc(Cl)cc1)c1cccnc1)N1CCN(c2nccs2)CC1	398.92	3.67	5.0	0.0	49.33	4.0	0.0	3.0	27.0			0.051												
+CHEMBL3137444		O=C(c1c(F)cccc1F)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	461.43	5.82	3.0	0.0	36.44	4.0	1.0	3.0	33.0			0.002												
+CHEMBL3137441		Cc1noc(C)c1C(=O)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	444.46	5.15	5.0	0.0	62.47	4.0	1.0	3.0	32.0			0.0055												
+CHEMBL4083095		O=C(Nc1ccc(OC(F)(F)F)cc1)O[C@H]1COc2nc([N+](=O)[O-])cn2C1	388.26	2.7	8.0	1.0	117.75	4.0	0.0	2.0	27.0			3.5	48.0											
+CHEMBL4075089			885.89													32.9										
+CHEMBL4874673		Cc1c(C(=O)Nc2ccc3c(c2)B(O)OC3)nnn1-c1ccccn1	335.13												0.1195	0.9982										
+CHEMBL4065239		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3Cl)nc1)C2	470.79	4.38	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.15	34.0											
+CHEMBL3137478		N#Cc1ccc(N(c2cccnc2)C2CCN(c3ccc(C(F)(F)F)cc3C#N)CC2)cc1	447.46	5.65	5.0	0.0	66.95	4.0	1.0	3.0	33.0			0.002												
+CHEMBL3104374		CS(=O)(=O)c1ccc(N2CCN(C(=O)C(c3ccc(C#N)cc3)c3cccnc3)CC2)cc1	460.56	2.84	6.0	0.0	94.37	5.0	0.0	3.0	33.0			0.0304												
+CHEMBL3137473		N#Cc1cc(C(F)(F)F)ccc1N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	490.45	6.8	4.0	0.0	43.16	4.0	1.0	3.0	35.0			0.007												
+CHEMBL4074828		O=[N+]([O-])c1cn2c(n1)OC[C@H](NCc1ccccc1OC(F)(F)F)C2	358.28	2.24	7.0	1.0	91.45	5.0	0.0	2.0	25.0			0.15	2.1											
+CHEMBL3137460		CC(C)(O)CN1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	393.45	4.47	4.0	1.0	39.6	5.0	0.0	2.0	28.0			0.011												
+CHEMBL227875	PRETOMANID	O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(OC(F)(F)F)cc1)C2	359.26	2.67	7.0	0.0	88.65	5.0	0.0	2.0	25.0		0.65	10.0	27.6105	3.9										
+CHEMBL3137462		CN(C)S(=O)(=O)c1cccc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)c1	504.58	5.16	5.0	0.0	56.75	6.0	2.0	3.0	35.0			0.015												
+CHEMBL4077167		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCC#Cc1ccc(OC(F)(F)F)cc1)C2	383.28	2.52	7.0	0.0	88.65	4.0	0.0	2.0	27.0			0.15												
+CHEMBL3104538		N#Cc1ccc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)cc1	422.45	5.78	4.0	0.0	43.16	4.0	1.0	3.0	31.0			0.007												
+CHEMBL3104479		FC(F)(F)c1ccc(N(c2cncnc2)C2CCN(c3ccc(C(F)(F)F)cn3)CC2)cc1	467.42	5.72	5.0	0.0	45.15	4.0	1.0	3.0	33.0			0.0048												
+CHEMBL3608846		O=[N+]([O-])c1cn2c(n1)OCC(COc1ccc(OC(F)(F)F)cc1)C2	359.26	2.78	7.0	0.0	88.65	5.0	0.0	2.0	25.0					0.46										
+CHEMBL4095234		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ncccc1-c1ccc(OC(F)(F)F)cc1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			1.3	18.0	0.86										
+CHEMBL4859032		Cc1c(C(=O)Nc2ccc3c(c2)B(O)OC3)cnn1-c1ccccn1	334.14													1.2										
+CHEMBL3137455		Fc1cnc(N2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)nc1	417.41	4.84	5.0	0.0	45.15	4.0	0.0	3.0	30.0			0.022												
+CHEMBL4093258		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(OCc3ccccc3)cc1)C2	381.39	3.35	7.0	0.0	88.65	7.0	0.0	3.0	28.0			0.39		0.14										
+CHEMBL4084065		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(C(F)(F)F)cc3)cn1)C2	420.35	3.85	7.0	0.0	92.31	5.0	0.0	3.0	30.0			0.072												
+CHEMBL4081599		O=C(Nc1ccccc1OC(F)(F)F)O[C@H]1COc2nc([N+](=O)[O-])cn2C1	388.26	2.7	8.0	1.0	117.75	4.0	0.0	2.0	27.0			3.5	48.0											
+CHEMBL4069505		O=C(N[C@H]1COc2nc([N+](=O)[O-])cn2C1)c1ccc(OC(F)(F)F)cc1	372.26	1.88	7.0	1.0	108.52	4.0	0.0	2.0	26.0			2.5												
+CHEMBL3104534		Cc1ccccc1CN1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	425.5	6.21	3.0	0.0	19.37	5.0	1.0	3.0	31.0			0.007												
+CHEMBL4074488		O=[N+]([O-])c1nc2n(n1)CC(Oc1ccc(OC(F)(F)F)cc1)CO2	346.22	1.92	8.0	0.0	101.54	4.0	0.0	2.0	24.0			1.3												
+CHEMBL4063931		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCC#Cc1ccc(C(F)(F)F)nc1)C2	368.27	2.03	7.0	0.0	92.31	3.0	0.0	2.0	26.0			1.2												
+CHEMBL572070		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1ccc(-c3ccccc3OC(F)(F)F)cc1)C2	435.36	4.33	7.0	0.0	88.65	6.0	0.0	3.0	31.0					0.36										
+CHEMBL4071737		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cccc(-c3ccc(OC(F)(F)F)cc3)c1)C2	435.36	4.33	7.0	0.0	88.65	6.0	0.0	3.0	31.0			0.43	22.0	0.31										
+CHEMBL4100012		O=[N+]([O-])c1cn2c(n1)OC[C@H](Oc1cccc(-c3ccc(F)cc3)n1)C2	356.31	2.83	7.0	0.0	92.31	4.0	0.0	3.0	26.0			0.3												
+CHEMBL4097042		CC1(C)Oc2nc([N+](=O)[O-])cn2CC1OCc1ccc(OCc2ccccc2)cc1	409.44	4.13	7.0	0.0	88.65	7.0	0.0	3.0	30.0			0.27	29.0	0.985										
+CHEMBL218974		C[C@]1(COc2ccc(OC(F)(F)F)cc2)Cn2cc([N+](=O)[O-])nc2O1	359.26	2.92	7.0	0.0	88.65	5.0	0.0	2.0	25.0			2.6	53.0	0.03										
+CHEMBL3137482		CC(C)(F)CN1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	395.44	5.45	3.0	0.0	19.37	5.0	1.0	2.0	28.0			0.015												
+CHEMBL480375		O=[N+]([O-])c1cn2c(n1)OCC(OCc1ccc(OCc3ccccc3)cc1)C2	381.39	3.35	7.0	0.0	88.65	7.0	0.0	3.0	28.0			0.79		1.1										
+CHEMBL4097686		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1cccc(-c3ccc(F)cc3)n1)C2	370.34	2.97	7.0	0.0	92.31	5.0	0.0	3.0	27.0			0.36		0.12										
+CHEMBL3104472		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(c3ccc(Cl)cc3)CC2)cc1	431.89	6.56	3.0	0.0	19.37	4.0	1.0	3.0	30.0			0.0197												
+CHEMBL4071028		O=[N+]([O-])c1nc2n(n1)CC(Oc1ccc(C(F)(F)F)cn1)CO2	331.21	1.44	8.0	0.0	105.2	3.0	0.0	2.0	23.0			23.0												
+CHEMBL4070883		CC1(OCc2ccc(OC(F)(F)F)cc2)COc2nc([N+](=O)[O-])cn2C1	373.29	3.06	7.0	0.0	88.65	5.0	0.0	2.0	26.0			50.0		78.0										
+CHEMBL4065114		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3)nc1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			0.27		1.4										
+CHEMBL4090795		O=[N+]([O-])c1nc2n(n1)C[C@@H](OCc1cccc(OC(F)(F)F)c1)CO2	360.25	2.06	8.0	0.0	101.54	5.0	0.0	2.0	25.0			0.31												
+CHEMBL3137477		CCC(C(C)O)N1CCC(N(c2ccc(C(F)(F)F)cc2)c2cccnc2)CC1	407.48	4.86	4.0	1.0	39.6	6.0	0.0	2.0	29.0			0.061												
+CHEMBL4063124		O=[N+]([O-])c1cn2c(n1)OCC(OCc1ccc(OCc3ccccc3)cc1)CC2	395.42	3.74	7.0	0.0	88.65	7.0	0.0	3.0	29.0			2.3	3.2	0.26										
+CHEMBL3104532		FC(F)(F)c1ccc(N(c2cccnc2)C2CCN(Cc3ccccc3C(F)(F)F)CC2)cc1	479.47	6.92	3.0	0.0	19.37	5.0	1.0	3.0	34.0			0.009												
+CHEMBL4073834		O=[N+]([O-])c1cn2c(n1)OC[C@H](OCc1ccc(-c3ccc(OC(F)(F)F)cc3F)nc1)C2	454.34	3.87	8.0	0.0	101.54	6.0	0.0	3.0	32.0			0.19		0.48										
+CHEMBL3137468		O=C(c1ccccc1)N1CCC(N(c2ccc(Cl)cc2)c2cccnc2)CC1	391.9	5.18	3.0	0.0	36.44	4.0	1.0	3.0	28.0			0.016												
+CHEMBL3104484		O=C(C(c1ccc(Cl)cc1)c1cccnc1)N1CCN(Cc2cccc(C(F)(F)F)c2)CC1	473.93	5.23	3.0	0.0	36.44	5.0	1.0	3.0	33.0			0.0149												
+CHEMBL3137448		FC(F)(F)c1ccc(CN2CCC(N(c3ccc(C(F)(F)F)cc3)c3cccnc3)CC2)cc1	479.47	6.92	3.0	0.0	19.37	5.0	1.0	3.0	34.0			0.033												
+CHEMBL370143	PAROMOMYCIN	NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O	615.63	-8.86	19.0	13.0	347.32	9.0	3.0	0.0	42.0				22.7	28.4412	32.8555									
+CHEMBL4076532		O=[N+]([O-])c1cn2c(n1)OC[C@@H](OCc1cccnc1-c1ccc(OC(F)(F)F)cc1)C2	436.35	3.73	8.0	0.0	101.54	6.0	0.0	3.0	31.0			6.7		28.0										
