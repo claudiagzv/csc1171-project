@@ -85,4 +85,3 @@ For each property–pathogen pair:
 - Assign speaking parts, rehearse to 10 minutes and practise Q&A.
 
 **Keep the full analysis in our notebooks; show only the clearest findings in the slides.**
-
