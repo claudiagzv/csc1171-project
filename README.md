@@ -1,18 +1,20 @@
-# Chemical properties and pathogen activity — CSC1171
+# Predicting Plasmodium falciparum activity - CSC1171
 
-CSC1171 Data Analytics and Data Mining group project using the supplied MMV/ChEMBL and DNDi compound datasets.
+CSC1171 Data Analytics and Data Mining group project investigating whether molecular properties can predict activity against Plasmodium falciparum using the supplied MMV/ChEMBL dataset. DNDi was explored initially but is not used for the selected prediction task.
 
 ## Research question
 
-**How do chemical properties relate to activity against the pathogens in our MMV and DNDi data?**
+**How accurately can we predict activity against Plasmodium falciparum (pf_ec50_uM) using molecular properties in the MMV dataset?**
 
-We will explore relationships between molecular size, lipophilicity, polar surface area, hydrogen bonding, flexibility, aromaticity and rule-of-five violations, and the available pathogen activity measurements. The analysis is exploratory: associations do not establish causation or clinical effectiveness.
+The inputs are molecular properties such as molecular weight, logP, hydrogen bonding, polar surface area, flexibility and aromaticity. The target is `pf_ec50_uM`.
+
+We will first inspect and prepare the data, then explore relationships and evaluate prediction models. Predictions do not establish that a compound is a safe or effective treatment.
 
 ## Repository structure
 
 ```text
 data/                       Original supplied datasets (keep unchanged)
-notebooks/                  Team plan and analysis notebooks
+notebooks/                   Exploration, preprocessing and modelling notebooks
 results/figures/            Exported charts
 results/tables/             Exported summary tables
 slides/                     Presentation PDFs and slide files
@@ -26,25 +28,51 @@ The structure follows NoCh-Git's ProjectTemplate: https://github.com/NoCh-Git/Pr
 
 ## Datasets
 
-| File | Rows | Columns |
-|---|---:|---:|
-| `data/mmv_ChEMBL-IC50s-Sep2026.csv` | 2,452 | 27 |
-| `data/dndi_compounds-IC50.csv` | 190 | 27 |
+MMV contains 2,452 compound records, including 1,687 with an available `pf_ec50_uM` value. These measured values will provide the labelled examples for PF prediction.
 
-Both files are **tab-separated** despite the `.csv` extension: load with `sep="\t"`. Four compound IDs occur in both sources; inspect overlapping measurements before combining records. Missing activity values must not be treated as zero.
+DNDi contains 190 compound records but no available `pf_ec50_uM` values. Its exploration is retained to document why we selected MMV. The datasets are not being combined for this task.
 
-Columns include compound identifiers, SMILES, chemical properties, pathogen IC50/EC50 measurements, cytotoxicity and selectivity indices. Confirm endpoint definitions and units before comparisons or transformations. Source/extraction details and reuse terms still need to be documented by the team.
+Both files are tab-separated despite the `.csv` extension: load with `sep="\t"`. Keep the original files unchanged. Missing activity values must not be treated as zero.
+
+Columns include compound identifiers, SMILES, molecular properties, biological activity, cytotoxicity and selectivity indices. The initial model will use molecular properties as inputs, excluding identifiers, other pathogen activity measurements and selectivity indices.
+
+Confirm endpoint definitions and units before transforming the target. Source/extraction details and reuse terms still need to be documented.
 
 ## Getting started
 
-From the repository root, install the analysis dependencies into your chosen Python environment:
+Run these commands from the `csc1171-project` folder.
 
-```sh
+### macOS / Linux (bash/zsh)
+
+```bash
+# Optional: select Python version if pyenv is installed
+pyenv local 3.11.3
+
+# Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-Open the notebooks in a Jupyter-capable editor using that environment. For the standalone Jupyter interface, install Jupyter separately in the same environment. Start with `notebooks/01_team_plan_property_pathogen_analysis.ipynb`, then `notebooks/initial_data_exploration.ipynb`.
+### Windows (PowerShell)
 
-The exploration notebook supports launching from the repository root or the `notebooks` folder. It retains earlier troubleshooting cells and their saved outputs; the successful import uses tab separation.
+```powershell
+# Optional: select Python version if pyenv is installed
+pyenv local 3.11.3
 
+# Create and activate a virtual environment
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# Install dependencies
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Open the notebooks
+
+Open a notebook in VS Code, click **Select Kernel**, and choose the `.venv` Python environment. Install the VS Code Python and Jupyter extensions if prompted.
 
