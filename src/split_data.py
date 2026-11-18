@@ -21,6 +21,7 @@ so now EC50 of 0.01 > log10 is -2 > pEC50 is 6 - (-2) =8 which is very strong
 #2. make a potency score
 # It turns the spread out EC50 values into an even 3 to 8 scale where bigger means stronger, and the 6 converts the µM units to the standard molar pEC50 scale.
 pec50 = 6 - np.log10(pf_df["pf_ec50_uM"])
+pf_df["pf_pEC50"] = pec50 # adds pec50 as a new column 
 
 #3. sort drugs into 5 groups
 #ranks each group weakest to strongest, then cuts the list into 5 equal groups, 0 to 4
@@ -47,3 +48,6 @@ print("Compounds in both files:", len(set(train_df["chembl_id"]) & set(test_df["
 #check that numbers are close, so split is fair
 print("Median pf_ec50_uM, train:", round(train_df["pf_ec50_uM"].median(), 3))
 print("Median pf_ec50_uM, test:", round(test_df["pf_ec50_uM"].median(), 3))
+
+# check that pEC50 is a new column
+print("Columns in train:", train_df.shape[1], "Has pEC50:", "pEC50" in train_df.columns)
