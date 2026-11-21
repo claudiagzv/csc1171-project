@@ -1,4 +1,13 @@
-# Predicting Plasmodium falciparum activity - CSC1171
+# Table of Contents
+1. Project Overview
+2. Getting started
+3. Usage
+4. Data & File Overview
+
+#
+
+# PROJECT OVERVIEW
+## Predicting Plasmodium falciparum activity - CSC1171
 
 CSC1171 Data Analytics and Data Mining group project investigating whether molecular properties can predict activity against Plasmodium falciparum using the supplied MMV/ChEMBL dataset. DNDi was explored initially but is not used for the selected prediction task.
 
@@ -10,33 +19,7 @@ The inputs are molecular properties such as molecular weight, logP, hydrogen bon
 
 We will first inspect and prepare the data, then explore relationships and evaluate prediction models. Predictions do not establish that a compound is a safe or effective treatment.
 
-## Repository structure
-
-```text
-data/                       Original supplied datasets (keep unchanged)
-notebooks/                   Exploration, preprocessing and modelling notebooks
-results/figures/            Exported charts
-results/tables/             Exported summary tables
-slides/                     Presentation PDFs and slide files
-scripts/                    Optional reusable analysis scripts
-.gitignore                  Lecturer template ignore rules
-README.md                   Project overview and instructions
-requirements.txt            Python dependencies
-```
-
-The structure follows NoCh-Git's ProjectTemplate: https://github.com/NoCh-Git/ProjectTemplate. Existing project work is retained instead of copying the template's blank example files.
-
-## Datasets
-
-MMV contains 2,452 compound records, including 1,687 with an available `pf_ec50_uM` value. These measured values will provide the labelled examples for PF prediction.
-
-DNDi contains 190 compound records but no available `pf_ec50_uM` values. Its exploration is retained to document why we selected MMV. The datasets are not being combined for this task.
-
-Both files are tab-separated despite the `.csv` extension: load with `sep="\t"`. Keep the original files unchanged. Missing activity values must not be treated as zero.
-
-Columns include compound identifiers, SMILES, molecular properties, biological activity, cytotoxicity and selectivity indices. The initial model will use molecular properties as inputs, excluding identifiers, other pathogen activity measurements and selectivity indices.
-
-Confirm endpoint definitions and units before transforming the target. Source/extraction details and reuse terms still need to be documented.
+---
 
 ## Getting started
 
@@ -76,3 +59,95 @@ python -m pip install -r requirements.txt
 
 Open a notebook in VS Code, click **Select Kernel**, and choose the `.venv` Python environment. Install the VS Code Python and Jupyter extensions if prompted.
 
+
+#
+
+
+# USAGE
+
+### Commands
+
+Get P. Falciparum dataset & its corressponding training and test sets as CSV files, stored in data directory.
+```sh
+just get-pf-split-data
+```
+
+#
+
+## Repository structure
+
+```text
+data/                       Original supplied datasets (keep unchanged)
+notebooks/                  Exploration, preprocessing and modelling notebooks
+results/figures/            Exported charts
+results/tables/             Exported summary tables
+slides/                     Presentation PDFs and slide files
+src/                        Optional reusable analysis scripts
+.justfile                   Command runner file
+.gitignore                  Lecturer template ignore rules
+README.md                   Project overview and instructions
+requirements.txt            Python dependencies
+```
+
+
+## Data & File Overview
+
+[MMV]('data/mmv_ChEMBL-IC50s-Sep2026.csv') contains 2,452 compound records, including 1,687 with an available `pf_ec50_uM` value. These measured values will provide the labelled examples for PF prediction.
+
+[DNDi]('data/dndi_compounds-IC50.csv') contains 190 compound records but no available `pf_ec50_uM` values. Its exploration is retained to document why we selected MMV. The datasets are not being combined for this task.
+
+**Table 1. MMV and DNDi Column Information**
+Column            | Content                 | Data Type
+------------------|-------------------------|--------------
+chembl_id | ChEMBL ID of compound | Varchar
+pref_name | Preffered name of a compound | Text
+smiles | Text code translation of a chemical molecule's 3D structure | Varchar
+molecular_weight | Molecular Weight | Float
+logp | Calculated partition coefficient | Float
+hba | Hydrogen bond acceptors | Integer
+hbd | Hydrogen bond donors | Integer
+rtb | Rotatable Bond Count | Integer
+ro5_violations | Number of Lipinski's Rule of Five violations | Integers
+aromatic_rings | Number of aromatic rings | Integer
+heavy_atoms | Number of heavy atoms | Integer
+pf_ec50_uM | Plasmodium falciparum 3D7 EC50 | Float
+tb_ic50_uM | Mycobacterium tuberculosis H37Rv IC50| Float
+tc_ic50_uM | Trypanosoma cruzi IC50 | Float
+tbrucei_ic50_uM | Trypanosoma brucei IC50 | Float
+ld_ic50_uM | Leishmania donovani IC50 | Float
+cp_ec50_uM | Cryptosporidium parvum EC50 | Float
+tg_ec50_uM | Toxoplasma gondii EC50 | Float
+hepg2_cc50_uM | HepG2 CC50 (Cytotoxicity) | Float
+si_pf | Selectivity Index of Plasmodium falciparum 3D7 | Float
+si_tb | Selectivity Index of Mycobacterium tuberculosis H37Rv | Float
+si_tc | Selectivity Index of Trypanosoma cruzi | Float
+si_tbrucei | Selectivity Index of Trypanosoma brucei | Float
+si_ld | Selectivity Index of Leishmania donovani | Float
+si_cp | Selectivity Index of Cryptosporidium parvum | Float
+si_tg | Selectivity Index of Toxoplasma gondii | Float
+
+___
+
+
+[Train set]('data/train.csv') dataset used to train ML model.
+
+
+[Test set]('data/test.csv') dataset used to test ML model accuracy.
+
+
+**Table 2. P. Falciparum Train and Test Set Column Information**
+Column            | Content                 | Data Type
+------------------|-------------------------|--------------
+chembl_id | ChEMBL ID of compound | Varchar
+pref_name | Preffered name of a compound | Text
+smiles | Text code translation of a chemical molecule's 3D structure | Varchar
+molecular_weight | Molecular Weight | Float
+logp | Calculated partition coefficient | Float
+hba | Hydrogen bond acceptors | Integer
+hbd | Hydrogen bond donors | Integer
+rtb | Rotatable Bond Count | Integer
+ro5_violations | Number of Lipinski's Rule of Five violations | Integers
+aromatic_rings | Number of aromatic rings | Integer
+heavy_atoms | Number of heavy atoms | Integer
+pf_ec50_uM | Plasmodium falciparum 3D7 EC50 | Float
+pf_pEC50 | Plasmodium falciparum potency score | Float
