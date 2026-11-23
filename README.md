@@ -151,3 +151,23 @@ aromatic_rings | Number of aromatic rings | Integer
 heavy_atoms | Number of heavy atoms | Integer
 pf_ec50_uM | Plasmodium falciparum 3D7 EC50 | Float
 pf_pEC50 | Plasmodium falciparum potency score | Float
+
+#
+
+# RESULTS
+
+Four regression models were compared against a predict-the-mean baseline on a stratified 80/20 split, using the same five cross-validation folds for every model.
+
+| Model | Features | Test R² | Test RMSE |
+|---|---|---:|---:|
+| Mean baseline | - | -0.002 | 0.584 |
+| Linear Regression | 9 descriptors | 0.044 | 0.570 |
+| XGBoost | fingerprints + descriptors | 0.120 | 0.547 |
+| SVR | fingerprints + descriptors | 0.121 | 0.547 |
+| Random Forest | fingerprints + descriptors | 0.148 | 0.538 |
+
+Random Forest using Morgan fingerprints and molecular descriptors performed best, explaining about 15% of the variation in pEC50. All models predict within roughly half a pEC50 unit, so they can rank compounds for screening but cannot replace experimental measurement. Random Forest and SVR scored far higher on training data than in cross-validation, indicating overfitting.
+
+A Random Forest classifier separating potent (pEC50 >= 6) from less potent compounds reached 65% accuracy, against 57% for always predicting the majority class.
+
+Full comparison in `notebooks/model_evaluation.ipynb`. Exported figures are in `results/figures/` and summary tables in `results/tables/`.

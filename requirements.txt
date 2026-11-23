@@ -1,7 +1,9 @@
 matplotlib
 numpy
 pandas
+rdkit
 rust-just
 scikit-learn
-rdkit
+scipy
+seaborn
 xgboost
