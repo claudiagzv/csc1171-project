@@ -3,7 +3,7 @@
 2. Getting started
 3. Usage
 4. Data & File Overview
-
+5. Results
 #
 
 # PROJECT OVERVIEW
@@ -21,11 +21,11 @@ We will first inspect and prepare the data, then explore relationships and evalu
 
 ---
 
-## Getting started
+# Getting started
 
 Run these commands from the `csc1171-project` folder.
 
-### macOS / Linux (bash/zsh)
+## macOS / Linux (bash/zsh)
 
 ```bash
 # Optional: select Python version if pyenv is installed
@@ -40,7 +40,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-### Windows (PowerShell)
+## Windows (PowerShell)
 
 ```powershell
 # Optional: select Python version if pyenv is installed
@@ -55,7 +55,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-### Open the notebooks
+## Open the notebooks
 
 Open a notebook in VS Code, click **Select Kernel**, and choose the `.venv` Python environment. Install the VS Code Python and Jupyter extensions if prompted.
 
@@ -65,7 +65,7 @@ Open a notebook in VS Code, click **Select Kernel**, and choose the `.venv` Pyth
 
 # USAGE
 
-### Commands
+## Commands
 
 Get P. Falciparum dataset & its corressponding training and test sets as CSV files, stored in data directory.
 ```sh
